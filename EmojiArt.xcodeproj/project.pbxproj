@@ -13,6 +13,8 @@
 		BD9BAFB3239D293F0002940C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9BAFB1239D293F0002940C /* Main.storyboard */; };
 		BD9BAFB5239D29450002940C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9BAFB4239D29450002940C /* Assets.xcassets */; };
 		BD9BAFB8239D29450002940C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9BAFB6239D29450002940C /* LaunchScreen.storyboard */; };
+		BD9BAFC0239D29C70002940C /* EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9BAFBF239D29C70002940C /* EmojiArtViewController.swift */; };
+		BD9BAFC2239D75520002940C /* EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9BAFC1239D75520002940C /* EmojiArtView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BD9BAFB4239D29450002940C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD9BAFB7239D29450002940C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD9BAFB9239D29450002940C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9BAFBF239D29C70002940C /* EmojiArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtViewController.swift; sourceTree = "<group>"; };
+		BD9BAFC1239D75520002940C /* EmojiArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BD9BAFB4239D29450002940C /* Assets.xcassets */,
 				BD9BAFB6239D29450002940C /* LaunchScreen.storyboard */,
 				BD9BAFB9239D29450002940C /* Info.plist */,
+				BD9BAFBF239D29C70002940C /* EmojiArtViewController.swift */,
+				BD9BAFC1239D75520002940C /* EmojiArtView.swift */,
 			);
 			path = EmojiArt;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9BAFB0239D293F0002940C /* ViewController.swift in Sources */,
+				BD9BAFC2239D75520002940C /* EmojiArtView.swift in Sources */,
+				BD9BAFC0239D29C70002940C /* EmojiArtViewController.swift in Sources */,
 				BD9BAFAC239D293F0002940C /* AppDelegate.swift in Sources */,
 				BD9BAFAE239D293F0002940C /* SceneDelegate.swift in Sources */,
 			);
